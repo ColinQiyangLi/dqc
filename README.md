@@ -36,7 +36,7 @@ For `humanoidmaze-giant` or `puzzle-4x5`, please set `--dataset_dir=None`. For `
 
 ## Reproducing paper results
 
-We include the example command below for `cube-quadruple`. We also release our experiment data at [exp_data/README.md](exp_data/README.md).
+We include the example command below for `cube-quadruple`. We also release our experiment data at [exp_data/README.md](exp_data/README.md) and include some scripts to generate the commands for all our experiments (`experiments/reproduce.py` for main results and `experiments/reproduce-sensitivity.py` for hyperparameter sensitivity results). We hope this helps facilitate/speedup future research!
 
 ```bash
 # DQC
@@ -53,8 +53,12 @@ MUJOCO_GL=egl python main.py --run_group=dqc-reproduce --offline_steps=1000000 -
 ```
 
 ## How do I obtain the 100M, 1B datasets?
-Please visit the official OGBench repository ([additional features](https://github.com/seohongpark/ogbench?tab=readme-ov-file#additional-features)) for information on how to generate these large datasets.
+Please follow the instructions [here](https://github.com/seohongpark/horizon-reduction?tab=readme-ov-file#using-large-datasets) to obtain the large datasets.
 
+## Acknowledgments
+This codebase is built on top of https://github.com/seohongpark/horizon-reduction.
+
+## BibTeX
 ```
 @article{li2025dqc,
   author = {Qiyang Li and Seohong Park and Sergey Levine},
@@ -64,6 +68,3 @@ Please visit the official OGBench repository ([additional features](https://gith
   url = {http://arxiv.org/abs/2512.10926},
 }
 ```
-
-## Acknowledgments
-This codebase is built on top of https://github.com/seohongpark/horizon-reduction.
