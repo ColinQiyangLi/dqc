@@ -1,4 +1,5 @@
-<div id="user-content-toc" style="margin-bottom: 40px;margin-top: 50px">
+<hr>
+<div id="user-content-toc" style="margin-bottom: 40px;margin-top: 60px">
   <ul align="center" style="list-style: none;">
     <summary>
       <picture>
@@ -7,7 +8,7 @@
         <img alt="Decoupled Q-Chunking" src="./assets/title.svg">
       </picture>
       <br>
-      <h2>[<a href="https://arxiv.org/pdf/2512.10926">Paper</a>] &emsp;|&emsp; [<a href="https://colinqiyangli.github.io/dqc">Webpage</a>]</h2>
+      <h2>[<a href="https://arxiv.org/pdf/2512.10926">Paper</a>] &emsp;|&emsp; [<a href="https://colinqiyangli.github.io/dqc">Website</a>]</h2>
     </summary>
   </ul>
 </div>
