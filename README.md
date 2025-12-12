@@ -7,7 +7,7 @@
         <img alt="Decoupled Q-Chunking" src="./assets/title.svg">
       </picture>
       <br>
-      <h2>[<a href="https://arxiv.org/pdf/xxxx.xxxxx">Paper</a>] &emsp;|&emsp; [<a href="https://colinqiyangli.github.io/dqc">Webpage</a>]</h2>
+      <h2>[<a href="https://arxiv.org/pdf/2512.10926">Paper</a>] &emsp;|&emsp; [<a href="https://colinqiyangli.github.io/dqc">Webpage</a>]</h2>
     </summary>
   </ul>
 </div>
@@ -60,7 +60,7 @@ Please visit the official OGBench repository ([additional features](https://gith
   title  = {Decoupled Q-chunking},
   conference = {arXiv Pre-print},
   year = {2025},
-  url = {http://arxiv.org/abs/xxxx.xxxxx},
+  url = {http://arxiv.org/abs/2512.10926},
 }
 ```
 
