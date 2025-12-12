@@ -1,4 +1,4 @@
-<div id="user-content-toc" style="margin-bottom: 10px">
+<div id="user-content-toc" style="margin-bottom: 40px;margin-top: 50px">
   <ul align="center" style="list-style: none;">
     <summary>
       <picture>
