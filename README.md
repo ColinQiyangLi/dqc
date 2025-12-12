@@ -1,4 +1,4 @@
-<hr>
+&nbsp;
 <div id="user-content-toc" style="margin-bottom: 40px;margin-top: 60px">
   <ul align="center" style="list-style: none;">
     <summary>
