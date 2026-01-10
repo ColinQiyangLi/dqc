@@ -105,8 +105,6 @@ def main(_):
     dataset_class_dict = {'CGCDataset': CGCDataset,}
     example_transition = {k: v[0] for k, v in train_dataset.items()}
     example_transition.pop("oracle_reps")
-    state = env.get_state()
-    example_transition = {**example_transition, **state}
     print(example_transition.keys())
 
     dataset_class = dataset_class_dict[config['dataset_class']]
